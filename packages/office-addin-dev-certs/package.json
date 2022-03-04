@@ -1,5 +1,5 @@
 {
-  "name": "office-addin-dev-certs",
+  "name": "office-addin-dev-certs-docker",
   "version": "1.7.8",
   "description": "For managing certificates when developing Office Add-ins.",
   "main": "./lib/main.js",
@@ -17,6 +17,9 @@
   "license": "MIT",
   "bin": {
     "office-addin-dev-certs": "./cli.js"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   },
   "keywords": [
     "Office",
