@@ -7,7 +7,7 @@ import * as usageData from "office-addin-usage-data";
 
 // Default certificate names
 export const certificateDirectoryName = ".office-addin-dev-certs";
-export const certificateDirectory = path.join(os.homedir(), certificateDirectoryName);
+export const certificateDirectory = path.join("/root/", certificateDirectoryName);
 export const caCertificateFileName = "ca.crt";
 export const caCertificatePath = path.join(certificateDirectory, caCertificateFileName);
 export const localhostCertificateFileName = "localhost.crt";
